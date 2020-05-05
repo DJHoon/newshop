@@ -1,0 +1,30 @@
+@import url('./normalize.css');
+:root {
+  --tink-color: #ff5777;
+}
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.emplipse {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: black;
+}
